@@ -91,6 +91,7 @@ Add the files below to your project directory
 ```
 
 ### `babel.config.js`
+<details>
 <summary>Click here to show/hide file contents</summary>
 
 ```bash
@@ -107,6 +108,7 @@ module.exports = {
   ],
 };
 ```
+</details>
 
 ### `.eslintrc.js`
 <details>
