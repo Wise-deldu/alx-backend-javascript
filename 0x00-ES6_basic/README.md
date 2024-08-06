@@ -87,8 +87,8 @@ Add the files below to your project directory
     "jest": "^24.9.0"
   }
 }
-</details>
 ```
+</details>
 
 ### `babel.config.js`
 <details>
