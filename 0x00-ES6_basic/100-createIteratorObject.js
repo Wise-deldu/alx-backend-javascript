@@ -1,4 +1,4 @@
-export default function createItertorObject(report) {
+export default function createIteratorObject(report) {
   const all = Object.values(report.allEmployees).reduce((a, b) => {
     a.push(...b);
     return a;
@@ -14,8 +14,6 @@ export default function createItertorObject(report) {
       }
       return { value: null, done: true };
     },
-    [Symbol.iterator]() {
-    return this;
-    }
+    [Symbol.iterator]: () => this.next(),
   };
 }
