@@ -25,9 +25,6 @@ module.exports = {
         'LabeledStatement',
         'WithStatement',
       ],
-      "import/extensions": ["error", "always", {
-      "js": "never"
-    }]
     },
     overrides: [
       {
