@@ -94,7 +94,7 @@ const SERVER_ROUTE_HANDLERS = [
           responseParts.push(err instanceof Error ? err.message : err.toString());
           const responseText = responseParts.join('\n');
           res.setHeader('Content-Type', 'text/plain');
-          res.setheader('Content-Length', responseText.length);
+          res.setHeader('Content-Length', responseText.length);
           res.statusCode = 200;
           res.write(Buffer.from(responseText));
         });
