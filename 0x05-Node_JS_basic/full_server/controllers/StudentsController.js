@@ -1,4 +1,4 @@
-import readDatabase from "../utils";
+import readDatabase from '../utils';
 
 /**
  * The list of supported majors.
